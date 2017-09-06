@@ -21,7 +21,7 @@ namespace LudoConsoleSpil
             ShowPlayers();
             Board Board = new Board();
         }
-
+        //hej
         // A method to set the number of player
         public void SetNumberOfPlayers()
         {
