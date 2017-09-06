@@ -1,0 +1,6 @@
+c:\users\jacob\documents\visual studio 2017\Projects\LudoConsoleSpil\LudoConsoleSpil\bin\Debug\LudoConsoleSpil.exe.config
+c:\users\jacob\documents\visual studio 2017\Projects\LudoConsoleSpil\LudoConsoleSpil\bin\Debug\LudoConsoleSpil.exe
+c:\users\jacob\documents\visual studio 2017\Projects\LudoConsoleSpil\LudoConsoleSpil\bin\Debug\LudoConsoleSpil.pdb
+c:\users\jacob\documents\visual studio 2017\Projects\LudoConsoleSpil\LudoConsoleSpil\obj\Debug\LudoConsoleSpil.csprojResolveAssemblyReference.cache
+c:\users\jacob\documents\visual studio 2017\Projects\LudoConsoleSpil\LudoConsoleSpil\obj\Debug\LudoConsoleSpil.exe
+c:\users\jacob\documents\visual studio 2017\Projects\LudoConsoleSpil\LudoConsoleSpil\obj\Debug\LudoConsoleSpil.pdb
