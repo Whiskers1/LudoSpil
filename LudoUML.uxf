@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>531</x>
+      <y>36</y>
+      <w>189</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>Game
+--
+-numberOfPlayer: int
+-players: Player[]
+--
+&lt;&lt;constructor&gt;&gt;Game()
++SetNumberOfPlayer()
+-CreatePlayers()
+-ShowPlayers()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>657</x>
+      <y>288</y>
+      <w>234</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>Player
+--
+-name: string
+-color: GameColor
+-tokens: Token[]
+--
+&lt;&lt;constructor&gt;&gt;Player(string, Gamecolor)
+-CreateTokens()
+--
++GetName: string
++GetColor: GameColor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>657</x>
+      <y>486</y>
+      <w>234</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>Token	
+--
+-color: GameColor
+-idNumber: int
+-location: int
+--
+&lt;&lt;constructor&gt;&gt;Token(GameColor, int)
+--
++TokenLocation: int
++GetColor: GameColor
++GetId: int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>432</x>
+      <y>288</y>
+      <w>189</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>Board
+--
+-fields: Field[]
+--
+&lt;&lt;constructor&gt;&gt;Board()
+-CreateFields()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>288</x>
+      <y>36</y>
+      <w>189</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>Dice
+--
+-diceValue: int
+--
+&lt;&lt;constructor&gt;&gt;Dice()
++ThrowDice(): int
+--
++GetValue: int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>351</x>
+      <y>486</y>
+      <w>270</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>Field
+--
+-color: GameColor
+-fieldId: int
+-type: FieldType
+-tokens: Token[] = new Token[2]
+--
+&lt;&lt;constructor&gt;&gt;Field(int, GameColor, FieldType)
+--
++GetFieldId: int
++GetColor: GameColor
++GetType: FieldType</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>684</x>
+      <y>153</y>
+      <w>90</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=2..4
+</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>504</x>
+      <y>153</y>
+      <w>72</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=1
+</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>738</x>
+      <y>414</y>
+      <w>36</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=4
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>504</x>
+      <y>360</y>
+      <w>36</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=91
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>936</x>
+      <y>288</y>
+      <w>144</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>enum GameColor
+--
+Red
+Blue
+Yollow
+Green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>882</x>
+      <y>315</y>
+      <w>72</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>585</x>
+      <y>369</y>
+      <w>405</w>
+      <h>324</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>430.0;10.0;430.0;340.0;10.0;340.0;10.0;300.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>882</x>
+      <y>369</y>
+      <w>90</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>80.0;10.0;80.0;170.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>243</x>
+      <y>288</y>
+      <w>144</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>enum FieldType
+--
+Home
+Sefe
+InPlay
+Finish</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>369</y>
+      <w>27</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+</diagram>
