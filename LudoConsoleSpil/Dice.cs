@@ -10,11 +10,13 @@ namespace LudoConsoleSpil
     {
         private int diceValue;
 
+        // A constructor method
         public Dice()
         {
             this.ThrowDice();
         }
 
+        // A method to throw dice
         public int ThrowDice()
         {
             Random rnd = new Random();
@@ -22,9 +24,10 @@ namespace LudoConsoleSpil
             return this.diceValue;
         }
 
-        public int GetValue()
+        // A property to get value
+        public int GetValue
         {
-            return this.diceValue;
+            get { return this.diceValue; }
         }
     }
 }

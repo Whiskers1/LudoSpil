@@ -4,3 +4,9 @@ c:\users\jacob\documents\visual studio 2017\Projects\LudoConsoleSpil\LudoConsole
 c:\users\jacob\documents\visual studio 2017\Projects\LudoConsoleSpil\LudoConsoleSpil\obj\Debug\LudoConsoleSpil.csprojResolveAssemblyReference.cache
 c:\users\jacob\documents\visual studio 2017\Projects\LudoConsoleSpil\LudoConsoleSpil\obj\Debug\LudoConsoleSpil.exe
 c:\users\jacob\documents\visual studio 2017\Projects\LudoConsoleSpil\LudoConsoleSpil\obj\Debug\LudoConsoleSpil.pdb
+C:\Users\Jacob\Documents\Visual Studio 2017\Projects\LudoConsoleSpil\GitLudoSpil\LudoConsoleSpil\bin\Debug\LudoConsoleSpil.exe.config
+C:\Users\Jacob\Documents\Visual Studio 2017\Projects\LudoConsoleSpil\GitLudoSpil\LudoConsoleSpil\bin\Debug\LudoConsoleSpil.exe
+C:\Users\Jacob\Documents\Visual Studio 2017\Projects\LudoConsoleSpil\GitLudoSpil\LudoConsoleSpil\bin\Debug\LudoConsoleSpil.pdb
+C:\Users\Jacob\Documents\Visual Studio 2017\Projects\LudoConsoleSpil\GitLudoSpil\LudoConsoleSpil\obj\Debug\LudoConsoleSpil.csprojResolveAssemblyReference.cache
+C:\Users\Jacob\Documents\Visual Studio 2017\Projects\LudoConsoleSpil\GitLudoSpil\LudoConsoleSpil\obj\Debug\LudoConsoleSpil.exe
+C:\Users\Jacob\Documents\Visual Studio 2017\Projects\LudoConsoleSpil\GitLudoSpil\LudoConsoleSpil\obj\Debug\LudoConsoleSpil.pdb

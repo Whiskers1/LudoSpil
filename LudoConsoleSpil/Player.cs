@@ -12,6 +12,7 @@ namespace LudoConsoleSpil
         private readonly GameColor color;
         private Token[] tokens;
 
+        // A constructor method
         public Player(string playerName, GameColor playerColor)
         {
             this.name = playerName;
@@ -19,6 +20,7 @@ namespace LudoConsoleSpil
             CreateTokens();
         }
 
+        // A method to create tokens
         private void CreateTokens()
         {
             this.tokens = new Token[4];
@@ -29,38 +31,30 @@ namespace LudoConsoleSpil
                 switch (color)
                 {
                     case GameColor.Red:
-                        token.Tokenlocation = (76 + i);
+                        token.TokenLocation = (76 + i);
                         break;
                     case GameColor.Blue:
-                        token.Tokenlocation = (80 + i);
+                        token.TokenLocation = (80 + i);
                         break;
                     case GameColor.Yollow:
-                        token.Tokenlocation = (84 + i);
+                        token.TokenLocation = (84 + i);
                         break;
                     case GameColor.Green:
-                        token.Tokenlocation = (88 + i);
+                        token.TokenLocation = (88 + i);
                         break;
                 }
             }
         }
 
+        // A property to get name
         public string GetName
         {
             get { return this.name; }
         }
-
+        // A property to get color
         public GameColor GetColor
         {
             get { return this.color; }
-        }
-
-        public void Vis()
-        {
-            foreach (Token token in this.tokens)
-            {
-                Console.WriteLine(token.GetColor + " " + token.GetId + " " + token.Tokenlocation);
-            }
-
         }
     }
 }

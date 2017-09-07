@@ -12,23 +12,24 @@ namespace LudoConsoleSpil
         private readonly int idNumber;
         private int location;
 
+        // A constructor method
         public Token(GameColor clr, int id)
         {
             this.color = clr;
             this.idNumber = id;
         }
-
-        public int Tokenlocation
+        // A property to get token location
+        public int TokenLocation
         {
             set { this.location = value; }
             get { return this.location; }
         }
-
+        // A property to get color
         public GameColor GetColor
         {
             get { return this.color; }
         }
-
+        // A property to get id
         public int GetId
         {
             get { return this.idNumber; }

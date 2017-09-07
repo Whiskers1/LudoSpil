@@ -12,12 +12,13 @@ namespace LudoConsoleSpil
     {
         private Field[] fields;
 
+        // A constructor method
         public Board()
         {
             CreateFields();
         }
 
-
+        // A method to create fields
         private void CreateFields()
         {
             this.fields = new Field[91];

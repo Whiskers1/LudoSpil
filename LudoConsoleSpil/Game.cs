@@ -13,7 +13,7 @@ namespace LudoConsoleSpil
         private int numberOfPlayers;
         private Player[] players;
 
-        //
+        // A constructor method
         public Game()
         {
             SetNumberOfPlayers();
@@ -21,7 +21,7 @@ namespace LudoConsoleSpil
             ShowPlayers();
             Board Board = new Board();
         }
-        //hej
+        
         // A method to set the number of player
         public void SetNumberOfPlayers()
         {
@@ -47,14 +47,13 @@ namespace LudoConsoleSpil
             Console.Clear();
         }
 
-        //
+        // A method to show player
         private void ShowPlayers()
         {
             Console.WriteLine("Okay, her er dine spillere:");
             foreach(Player pl in this.players)
             {
                 Console.WriteLine(pl.GetName + " " + pl.GetColor);
-                pl.Vis();
             }
         }
     }
