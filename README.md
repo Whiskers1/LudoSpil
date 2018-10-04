@@ -1,3 +1,3 @@
 # LudoSpil
 
-Möin
+Dette er en skoleopgave...
